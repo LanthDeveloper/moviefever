@@ -1,0 +1,16 @@
+.container{
+	display: grid;
+	place-content: center;
+	padding: 5em 0;
+}
+
+.box{
+	max-width: 1280px;
+	width: 95dvw;
+}
+
+/* TEXT */
+.text_center{
+	text-align: center;
+}
+

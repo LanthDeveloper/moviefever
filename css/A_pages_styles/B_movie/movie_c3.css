@@ -1,0 +1,19 @@
+#movie_c3{
+    padding-top: 0;
+    background-image: url("/images/img_banners/banner_secondary4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#movie_c3_box>h3{
+    border: 1px solid gray;
+    background-color: black;
+    padding: 1em;
+}
+#movie_c3_box>p{
+    padding: 1.5em 1em;
+    color: var(--gray)
+}
+#movie_c3_box>h3>span{
+    color: var(--yellow);
+}

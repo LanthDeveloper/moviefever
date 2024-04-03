@@ -1,0 +1,126 @@
+#contacts_c1{
+    background-image: url("/images/img_banners/banner_secondary5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#contacts_c1_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "contacts_c1__item1 contacts_c1__item1 contacts_c1__item2";
+    gap: 2em;
+}
+
+#contacts_c1__item1>form{
+    padding: 2em;
+}
+#contacts_c1__item2>div{
+    padding: 2em;
+}
+#contacts_c1__item1{
+    grid-area: contacts_c1__item1;
+}
+#contacts_c1__item2{
+    grid-area: contacts_c1__item2;
+}
+
+#contacts_c1_form__item1{
+    gap: 1em;
+}
+
+#contacts_c1_form{
+    gap: .7em;
+    border: 1px solid gray;
+}
+#contacts_c1__item1>form>ul>li>*{
+    color: #bcbcbc;
+    padding: 1em;
+    border: none;
+    background-color: black;
+    height: 3em;
+    border-radius: .2em;
+    
+}
+#contacts_c1__item1>form>textarea{
+    color: #bcbcbc;
+    padding: 1em;
+    border-radius: .2em;
+    border: none;
+    background-color: black;
+}
+
+#contacts_c1__item1>form>ul>li>*:focus{
+    outline: none;
+    border:1px solid yellow;
+}
+#contacts_c1__item1>form>textarea:focus{
+    outline: none;
+    border:1px solid yellow;
+}
+#contacts_c1__item1>form>button{
+    width: max-content;
+    margin-top: .5em;
+    padding: 1em 2.5em;
+    border-radius: 5em;
+    font-weight: 700;
+}
+
+#contacts_c1_info{
+    border: 1px solid gray;
+}
+#contacts_c1_info_p1>li{
+    gap: 2em;
+    padding-bottom: 1.16em;
+    margin-bottom: 1.875em;
+    border-bottom: .0625em solid #313035;
+}
+#contacts_c1_info_p1>li>h4{
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--gray);
+}
+#contacts_c1_info_p1>li>i{
+    display: grid;
+    place-items: center;
+    color: black;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    background-color: var(--yellow);
+}
+#contacts_c1_info_p1>li>p{
+    color: var(--gray);
+}
+#contacts_c1_info_p1>li>p>span{
+    color: white;
+}
+#contacts_c1__item1{
+    gap: 2em
+}
+#contacts_c1__item2{
+    gap: 2em
+}
+@media (max-width: 900px){
+    
+    #contacts_c1_box{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "contacts_c1__item1"
+        "contacts_c1__item2";
+    }
+}
+
+@media (0px <= width <=200px) {
+    #contacts_c1__item1>form>button{
+        width: min-content;
+    }
+	#contacts_c1__item1>form{
+        padding: 0;
+    }
+    #contacts_c1__item2>div{
+        padding: 0;
+    }
+    #contacts_c1__item1>form>button{
+        padding: 1em 1em;
+    }
+}

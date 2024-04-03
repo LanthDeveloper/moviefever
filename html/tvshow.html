@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS__GOOGLE-FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- ICONS__FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/8fc487fc6f.js" crossorigin="anonymous"></script>
+
+    <!-- ICON WEBSITE -->
+    <link rel="icon" href="/images/icon_website.ico">
+
+
+    <!------------------ STYLESHEETS -------------------------------->
+
+    <!-- USUAL_STYLES -->
+    <link rel="stylesheet" href="/css/C_usual_styles/A_flex.css">
+    <link rel="stylesheet" href="/css/C_usual_styles/B_grid.css">
+    <link rel="stylesheet" href="/css/C_usual_styles/C_general.css">
+    <link rel="stylesheet" href="/css/C_usual_styles/D_custom.css">
+    <link rel="stylesheet" href="/css/C_usual_styles/E_mediaquery.css">
+    <link rel="stylesheet" href="/css/C_usual_styles/F_root.css">
+
+    <!-- UNIVERSAL_COMPONENTS_STYLES -->
+    <link rel="stylesheet" href="/css/B_universal_components/A_nav.css">
+    <link rel="stylesheet" href="/css/B_universal_components/B_cover_half.css">
+    <link rel="stylesheet" href="/css/B_universal_components/C_banner_trial.css">
+    <link rel="stylesheet" href="/css/B_universal_components/D_footer_v1.css">
+    <link rel="stylesheet" href="/css/B_universal_components/E_footer_v2.css">
+    <link rel="stylesheet" href="/css/B_universal_components/F_scroll_movies.css">
+    <link rel="stylesheet" href="/css/B_universal_components/G_list_movies.css">
+
+    <!-- PAGES_STYLES -->
+
+    <!-- HOME -->
+    <link rel="stylesheet" href="/css/A_pages_styles/A_index/home_c1.css">
+    <link rel="stylesheet" href="/css/A_pages_styles/A_index/home_c2.css">
+    <link rel="stylesheet" href="/css/A_pages_styles/A_index/home_c3.css">
+
+    <!-- MOVIE -->
+    <link rel="stylesheet" href="/css/A_pages_styles/B_movie/movie_c1.css">
+    <link rel="stylesheet" href="/css/A_pages_styles/B_movie/movie_c2.css">
+    <link rel="stylesheet" href="/css/A_pages_styles/B_movie/movie_c3.css">
+
+    <!-- TV SHOW -->
+    <link rel="stylesheet" href="/css/A_pages_styles/C_tvshow/tvshow_c1.css">
+
+    <!-- PRICING -->
+    <link rel="stylesheet" href="/css/A_pages_styles/D_pricing/pricing_c1.css">
+
+    <!-- CONTACTS -->
+    <link rel="stylesheet" href="/css/A_pages_styles/E_contacts/contacts_c1.css">
+    <link rel="stylesheet" href="/css/A_pages_styles/E_contacts/contacts_c2.css">
+
+
+    <!-- TITTLE -->
+    <title>Home</title>
+</head>
+<body id="body">
+    <div id="nav_container" class="container visible">
+        <nav id="nav_box" class="box flex_rw_sb">
+            <a href="/index.html"><img id="nav_logo" src="/images/logo.png"></a>
+    
+            <ul id="nav_box__menu" class="flex_r">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/html/movie.html">Movie</a></li>
+                <li><a href="/html/tvshow.html">Tv show</a></li>
+                <li><a href="/html/pricing.html">Pricing</a></li>
+                <li><a href="/html/contacts.html">Contacts</a></li>
+            </ul>
+    
+            <ul id="nav_box__config" class="flex_r">
+                <li><i class="fas fa-search"></i></li>
+
+                <li>
+                    <select>
+                        <option value="">EN</option>
+                        <option value="">AU</option>
+                        <option value="">AR</option>
+                        <option value="">TU</option>
+                    </select>
+                </li>
+    
+                <li><button><p>Sign in</p></button></li>
+            </ul>
+    
+            <i id="nav_stack" class="fa-solid fa-bars"></i>
+        </nav>
+    </div>
+
+    <div id="tvshow__cover_half" class="container cover_half">
+        <div id="cover_half_box" class="box">
+          <h2>Tv <span>Show</span></h2>
+          <h4>Best Series</h4>
+        </div>
+    </div>
+
+    <div id="list_movies" class="container">
+        <div class="box">
+            <h5>ONLINE STREAMING</h5>
+
+            <div class="flex_rw_sb">
+              <h1>Upcoming Tv Shows</h1>
+              <div class="flex_rw gap_05">
+                <ul class="flex_rw gap_05">
+                 <li>TV Shows</li>
+                 <li>Movies</li>
+                 <li>Anime</li>
+                </ul>
+                <select>
+                  <option value="">HD-MAX</option>
+                  <option value="">4K</option>
+                  <option value="">HD</option>
+                </select>
+              </div>
+            </div>
+  
+            <div class="grid_list_items">
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_11.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>The Phantom Legacy</li>
+                        <li>2023</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>135 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.1</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_12.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Rising Storm</li>
+                        <li>2024</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>120 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.3</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_13.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Echoes of Eternity</li>
+                        <li>2023</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>142 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.5</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_14.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Dark Horizon</li>
+                        <li>2022</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>128 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.0</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_15.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Midnight Mirage</li>
+                        <li>2023</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>115 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.2</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_16.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Neon Dreams</li>
+                        <li>2024</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>132 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.4</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_17.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Whispering Shadows</li>
+                        <li>2023</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>119 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.3</p></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="movie_card flex_c">
+                    <img class="movie_poster" src="/images/img_movies/movie_20.jpg" alt="Movie Poster">
+                    <ul class="flex_r_sb">
+                        <li>Starlight Symphony</li>
+                        <li>2024</li>
+                    </ul>
+                    <ul class="flex_rw_sb">
+                        <li>4K</li>
+                        <li class="movie_card__rating flex_r">
+                            <span class="flex_r"><i class="far fa-clock"></i><p>125 min</p></span>
+                            <span class="flex_r"><i class="fas fa-thumbs-up"></i><p>4.6</p></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+
+    <div id="banner_trial" class="container">
+        <div id="banner_trial_box" class="box flex_rw">
+          <ul>
+            <li><h4>Trial Start First 30 Days.</h4></li>
+            <li><p>Enter your email to create or restart your membership.</p></li>
+          </ul>
+  
+          
+          <form id="banner_form" class="flex_r">
+              <input type="text" placeholder="Enter your email" />
+              <button>GET STARTED</button>
+          </form>
+        </div>
+    </div>
+  
+    <div id="footer_v1" class="container">
+        <div id="footer_v1_box" class="box flex_rw_sb">
+  
+          <ul class="flex_rw">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+  
+          <ul class="flex_r">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+  
+        </div>
+    </div>
+  
+    <div id="footer_v2" class="container">
+        <div id="footer_v2_box" class="box flex_rw_sb">
+  
+          <p>Copyright © 2024. All Rights Reserved By <a href="#">DEV</a></p>
+          
+          <ul class="flex_rw">
+            <li><i class="fa-brands fa-cc-visa"></i></li>
+            <li><i class="fa-brands fa-cc-stripe"></i></li>
+            <li><i class="fa-brands fa-cc-paypal"></i></li>
+            <li><i class="fa-brands fa-cc-apple-pay"></i></li>
+            <li><i class="fa-brands fa-cc-diners-club"></i></li>
+          </ul>
+  
+        </div>
+    </div>
+
+
+    
+
+<script src="/script/script.js"></script>
+</body>
+</html>

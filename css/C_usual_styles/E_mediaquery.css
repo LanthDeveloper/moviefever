@@ -1,0 +1,62 @@
+/* Media queries */
+
+@media (0px <= width <=150px) {
+	button{
+		padding: .5em 0em;
+	}
+	select{
+		padding: .45em 0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		word-break: break-all;
+	}
+}
+
+@media (0px <= width <= 50px) {
+	body {
+		font-size: .15em;
+	}
+}
+
+@media (50px <= width <=70px) {
+	
+	body {
+		font-size: .25em;
+	}
+}
+
+@media (70px <= width <=100px) {
+	body {
+		font-size: .35em;
+	}
+}
+@media (100px <= width <=200px) {
+	
+	body {
+		font-size: .45em;
+	}
+}
+
+@media (200px <= width <=300px) {
+	body {
+		font-size: .6em;
+	}
+}
+
+@media (300px <= width <=540px) {
+	body {
+		font-size: .7em;
+	}
+}
+  
+@media (540px <= width <=740px) {
+	body {
+		font-size: .8em;
+	}
+}
+
+@media (740px <= width <=940px) {
+	body {
+		font-size: .9em;
+	}
+}

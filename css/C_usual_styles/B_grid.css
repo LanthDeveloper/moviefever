@@ -1,0 +1,27 @@
+/* GRID */
+.grid_pc_c {
+	display: grid;
+	place-content: center;
+}
+
+.grid_pi_c {
+	display: grid;
+	place-items: center;
+}
+
+/* GRID SCROLL X */
+.grid_scroll_x{
+	display: grid;
+	grid-auto-flow: column;
+	overflow-x: auto;
+	gap: 1.5em;
+	padding: 1em 0;
+}
+
+/* GRID ITEMS RESPONSIVE */
+.grid_list_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(15em, 100%), 1fr));
+    gap: 1.5em;
+	padding: 1em 0;
+}

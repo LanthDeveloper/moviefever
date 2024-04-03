@@ -1,0 +1,55 @@
+/* FLEX ROW */
+.flex_r {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+.flex_rw {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.flex_r_sb {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex_rw_sb {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex_r_ac {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+/* FLEX COLUMN */
+.flex_c {
+	display: flex;
+	flex-flow: column;
+	justify-items: center;
+}
+
+/* FLEX 1 Y 0 */
+
+.flex_1{
+	width: 100%;
+	flex: 1;
+}
+.flex_0{
+	width: 100%;
+	flex: 0;
+}
+
+/* GAP */
+
+.gap_05{
+	gap: .5em;
+}
+.gap_1{
+	gap: 1em;
+}

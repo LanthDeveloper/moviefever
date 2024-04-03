@@ -1,0 +1,77 @@
+#movie_c2{
+    background-image: url("/images/img_banners/banner_secondary4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#movie_c2_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "movie_c2__item1 movie_c2__item1 movie_c2__item2";
+    gap: 2em;
+}
+
+
+#movie_c2__item1{
+    grid-area: movie_c2__item1;
+}
+#movie_c2__item2{
+    grid-area: movie_c2__item2;
+    display: grid;
+    place-items: center;
+}
+#movie_c2_img{
+    width: 100%;
+    border-radius: .5em;
+}
+#btn_season2{
+    padding: 1.5em 1em;
+}
+#btn_season1{
+    padding: 1.5em 1em;
+}
+
+#episodes_s2>li{
+    color: var(--gray);
+    padding: 1.5em 1em;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+#episodes_s2>li:hover h4 {
+    color: #e4d804;
+}
+
+#episodes_s2>li>span{
+    gap: 1em;
+}
+#episodes_s2>li>span>i{
+    color: var(--yellow);
+}
+#episodes_s1>li{
+    color: var(--gray);
+    padding: 1.5em 1em;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+#episodes_s1>li>span{
+    gap: 1em;
+}
+#episodes_s1>li>span>i{
+    color: var(--yellow);
+}
+
+#episodes_s1>li:hover h4 {
+    color: #e4d804;
+}
+
+@media (max-width: 750px){
+    #movie_c2_box{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "movie_c2__item1"
+        "movie_c2__item2";
+    }
+}
