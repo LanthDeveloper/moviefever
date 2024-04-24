@@ -6,6 +6,15 @@
 	scrollbar-width: thin;
 	scrollbar-color: gray black;
 }
+html{
+	scroll-behavior: smooth;
+}
+
+@media (max-width: 600px){
+	html{
+		scrollbar-width: none;
+	}
+}
 
 body {
 	background-color: black;
