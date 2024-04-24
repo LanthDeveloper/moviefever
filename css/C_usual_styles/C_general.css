@@ -5,9 +5,11 @@
     font-family: 'Poppins', sans-serif;
 	scrollbar-width: thin;
 	scrollbar-color: gray black;
+	
 }
 html{
 	scroll-behavior: smooth;
+	overflow-x: none;
 }
 
 @media (max-width: 600px){
