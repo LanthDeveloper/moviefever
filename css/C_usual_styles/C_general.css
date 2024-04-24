@@ -11,7 +11,7 @@ html{
 }
 
 @media (max-width: 600px){
-	html{
+	*{
 		scrollbar-width: none;
 	}
 }
