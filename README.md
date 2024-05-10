@@ -4,8 +4,7 @@ Movie Fever is a web that allows users to explore, discover new movies.
 
 ## Live preview
 
-You can view a live demo of this project at [https://https://moviefeverpro.netlify.app/]
-
+You can view a live demo of this project at [https://moviefeverpro.netlify.app/]
 
 ## Features
 
